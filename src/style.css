@@ -1,0 +1,95 @@
+:root {
+  --main-color: #111827;
+  --mid-color: #334155;
+  --food-color: #c2410c;
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.floating-effect {
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+}
+.nav-bar {
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 1.7rem;
+  height: 5rem;
+  width: 65rem;
+  align-items: center;
+}
+.tab-cell {
+  font-family: sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 5rem;
+  height: 2.5rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.lg-rec-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  margin: 2rem auto;
+  height: 35rem;
+  width: 65rem;
+  position: relative;
+  padding: 2rem;
+}
+.md-rec-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  height: 4rem;
+  width: 12rem;
+  background-color: var(--food-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.pic {
+  height: 100%;
+}
+
+.large-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.small-text {
+  font-size: 1.3rem;
+}
+.menu-board {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 20rem);
+  grid-template-rows: 20rem;
+  grid-auto-rows: 20rem;
+  margin-top: 5rem;
+}
+.food-img {
+  background-color: white;
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-box {
+  height: 20rem;
+  width: 70rem;
+  background-color: #334155;
+  margin-top: 2rem;
+  color: white;
+}
+.subtext {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
